@@ -1,0 +1,6 @@
+.display {
+    color: black;
+}
+ .keys{
+    display: grid;
+ }
