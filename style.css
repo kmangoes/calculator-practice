@@ -1,7 +1,36 @@
 #display {
-    color: black;
+    cursor: text;
+    background: black;
+    border-color: black;
+    color: white;
 }
-#keys {
+button{
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: none;
+    background: rgb(128,128,128);
+    color: white;
+    font-weight: bold;
+    font-size: 200%;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(172, 172, 168);
+}
+div{
+    background-color: black;
+    border-radius: 15px;
+}
+#op_btn{
+    background-color: rgb(228, 148, 9);
+}
+#op_btn:hover{
+    background-color: rgba(255, 177, 42, 0.911);
+}
+#keys{
     display: grid;
     grid-template-columns: repeat(4,1fr);
- }
+    gap: 8px;
+    padding: 2%;
+}
