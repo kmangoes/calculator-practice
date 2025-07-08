@@ -27,5 +27,9 @@ document.addEventListener('keydown', function(event){
         calculate(); 
     } else if (key === 'C' || key === 'Escape') {
         clearDisplay(); 
-    } 
+    } else if (key === 'Backspace') {
+        backspace(); 
+    } else {
+        event.preventDefault(); 
+    }
 }); 
